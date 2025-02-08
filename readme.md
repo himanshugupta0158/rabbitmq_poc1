@@ -27,6 +27,20 @@ consumer.py Explanation:
 Running the Project:
 
 1. Ensure RabbitMQ is running on your local system.
+```
+# run docker compose file
+sudo docker-compose up -d
+```
+```
+# to restart docker
+sudo docker-compose start
+```
+
+```
+# to stop container after stopping docker using CTRL+C
+sudo docker-compose down
+```
+
 
 2. Place the people.txt file, producer.py, and consumer.py in the same directory.
 
